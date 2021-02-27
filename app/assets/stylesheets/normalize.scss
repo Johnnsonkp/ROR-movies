@@ -1,0 +1,35 @@
+$primary-color: -webkit-linear-gradient(to right, #ff5f6d, #ffc371);
+$gradient-color: linear-gradient(90deg,#fa1660 0,#ff6e00 100%);
+
+
+.selected{
+    // border: 2px solid #ff5f6d;
+    background-color: -webkit-linear-gradient(to right, #ff5f6d, #ffc371);
+    background-color: #ff5f6d;
+    background: linear-gradient(90deg,#fa1660 0,#ff6e00 100%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+.not-selected{
+    // border: 1px solid transparent;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin: 0;
+    height: 45px;
+    box-sizing: border-box;
+}
+.smooth{
+    transition: 0.5s ease;
+}
+.link{
+    padding-left: 10px;
+    padding-right: 10px;
+}
