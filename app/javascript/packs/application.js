@@ -27,7 +27,8 @@ window.onload=function(){
     const form = document.getElementById('form')
     const search = document.getElementById('search')
     const rated = document.querySelector('.rated')
-
+    const bigBtn = document.getElementById('btn')
+    const logoLink = document.querySelector('.logo-link')
     
     // const showcase = document.getElementById('showcase')
     // Get initial moovies
@@ -138,7 +139,14 @@ window.onload=function(){
 
     })
 
+    logoLink.addEventListener('click', () =>{
+        window.scrollBy(0, 0);
+        window.location.reload()
+    })
 
+    bigBtn.addEventListener('click', () => {
+        window.scrollBy(0, 750);
+    })
 
 
     const scrollDown = document.querySelector('.down-arrow')
